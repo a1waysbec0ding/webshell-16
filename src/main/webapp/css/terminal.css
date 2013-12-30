@@ -1,0 +1,23 @@
+div#terminal {
+  width: 650px;
+  height: 300px;
+  border: 1px solid #CCCCCC;
+  background: #000000;
+  color: #EEEEEE;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+  overflow-y: scroll;
+}
+
+div#terminal-output {
+  white-space: pre;
+}
+
+span#cursor {
+  width: 8px;
+  display: inline-block;
+}
+
+.cursor-inverted {
+  background: #CCCCCC;
+}
